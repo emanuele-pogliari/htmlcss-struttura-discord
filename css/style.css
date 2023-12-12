@@ -4,3 +4,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* stilizzazione elementi comuni */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+/* stile container header */
+
+#main-container header {
+    background-color: #ADD8E6;
+    padding: 10px;
+}
+
+#main-container header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DAA520;
+    padding: 6px;
+}
