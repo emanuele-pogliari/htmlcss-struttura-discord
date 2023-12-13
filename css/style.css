@@ -100,3 +100,15 @@ section:nth-of-type(1) {
 section:nth-of-type(1) .container {
     background-color: #EE82EE;
 }
+
+/* Stile seconda sezione */
+
+section .container .div-a {
+    background-color: #1E90FF;
+    width: 715px;
+}
+
+section .container .div-b {
+    background-color: pink;
+    flex-grow: 1;
+}
