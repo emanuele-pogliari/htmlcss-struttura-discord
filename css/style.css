@@ -57,7 +57,6 @@ section:nth-of-type(2n+3) {
     display: flex;
     height: 45px;
     justify-content: space-between;
-    align-items: center;
     background-color: #DAA520;
     width: 1200px;
     gap: 10px 0;
@@ -173,7 +172,6 @@ footer {
 
 .border {
     border-top: 1px solid white;
-    border-bottom: 1px solid white;
     padding-top: 30px;
 }
 
