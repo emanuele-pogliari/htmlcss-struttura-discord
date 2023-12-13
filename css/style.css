@@ -17,11 +17,11 @@ body {
 }
 
 .width-900 {
-    width: 900px;
+    max-width: 900px;
 }
 
 .width-1200 {
-    width: 1200px;
+    max-width: 1200px;
 }
 
 a {
@@ -33,7 +33,7 @@ a {
     display: flex;
     justify-content: center;
     height: 500px;
-    border: 1px dashed black;
+    border: 2px dashed black;
     margin: auto;
 }
 
@@ -140,7 +140,6 @@ footer {
     display: flex;
     align-items: align-items;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 5px 0 30px;
 }
 
