@@ -101,7 +101,7 @@ section:nth-of-type(1) .container {
     background-color: #EE82EE;
 }
 
-/* Stile seconda sezione */
+/* Stile seconda e quarta sezione */
 
 section .container .div-a {
     background-color: #1E90FF;
@@ -118,4 +118,11 @@ section .container .div-b {
 section:nth-of-type(3)>div {
     display: flex;
     flex-direction: row-reverse;
+}
+
+/* Quinta sezione*/
+
+section:nth-of-type(5) .container {
+    height: 900px;
+    background-color: #228B22;
 }
