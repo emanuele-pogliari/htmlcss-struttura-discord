@@ -126,3 +126,55 @@ section:nth-of-type(5) .container {
     height: 900px;
     background-color: #228B22;
 }
+
+/* Stilizzazione footer */
+
+footer {
+    background-color: #23272A;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: align-items;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px 0 30px;
+}
+
+.footer-container * {
+    width: 210px;
+    height: 600px;
+    background-color: #20B2AA;
+    border: 1px dashed white;
+
+}
+
+.footer-container *:first-of-type {
+    flex-grow: 2;
+    background-color: #F08080;
+    border-color: black;
+}
+
+.footer-link {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+    padding: 20px 0;
+}
+
+.footer-link button {
+    background-color: #FFB6C1;
+    padding: 10px 20px;
+    border: 1px dashed black;
+}
+
+.border {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 30px;
+}
+
+/* Fine stilizzazione footer */
