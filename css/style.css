@@ -65,11 +65,7 @@ section:nth-of-type(2n+3) {
 
 #main-container header .header-container {
     border: 1px dashed black;
-}
-
-#main-container header .header-container {
-    border: 1px dashed black;
-
+    padding: 10px;
 }
 
 
